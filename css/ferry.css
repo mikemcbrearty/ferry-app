@@ -1,0 +1,97 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article {
+  width: 33.3333%;
+  min-width: 320px;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 33.3333%;
+}
+section {
+  padding: 40px;
+  margin-left: 40px;
+  position:  relative;
+  background: #222;
+  color: #eee;
+}
+section a:visited {
+  color: #ff8c00;
+}
+#messages p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.outline {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 66.6666%;
+}
+#map {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 200%;
+  left: -50%;
+}
+
+p, h1, h2, h3, a {
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-weight: normal;
+}
+p, h3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+h1, h2 {
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 12px;
+}
+
+@media (max-width:640px) {
+  article {
+    width: 100%;
+    min-width: 100%;
+    padding-top: 0%;
+    padding-bottom: 200%;
+  }
+  section {
+    margin-left: 0px;
+    padding: 30px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+  }
+  .outline {
+    width: 100%;
+  }
+  #map {
+    bottom: 0%;
+    left: 0%;
+    width: 200%;
+    height: 150%;
+  }
+}

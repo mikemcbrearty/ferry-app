@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Staten Island Ferry Real-Time Location Tracker</title>
+    <link rel="stylesheet" href="css/ferry.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <script src="js/leaflet.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/moment.min.js"></script>
+  </head>
+  <body>
+    <div class="outline">
+      <div id="map"></div>
+    </div>
+    <article>
+      <section id="cover" class="cover">
+        <h1 style="margin-top:0;" >Staten Island Ferry</h1>
+        <p>Real-time location tracker.</p>
+
+        <h1>Latest Updates:</h1>
+        <div id="messages"></div>
+
+        <h1>References</h1>
+        <p>Location data from <a title="AIS Hub" href="http://www.aishub.net/">AIS Hub</a>.</p>
+        <p>Map tiles by <a href="http://www.mapquest.com/">MapQuest</a>.</p>
+        <p>Built with <a href="http://leafletjs.com/">leaflet.js</a> and <a href="http://underscorejs.org/">underscore.js</a>.</p>
+        <p>Ferry info: <a href="http://www.siferry.com/">siferry.com</a>.</p>
+      </section>
+    </article>
+
+    <script src="js/ferry.js"></script>
+  </body>
+</html>
