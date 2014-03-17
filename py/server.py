@@ -90,7 +90,7 @@ class WebSocketHandler(tornado.websocket.WebSocketHandler):
 
 
 app = tornado.web.Application([
-    (r'/', WebSocketHandler),
+    (r'/staten-island-ferry', WebSocketHandler),
 ])
 
 if __name__ == '__main__':

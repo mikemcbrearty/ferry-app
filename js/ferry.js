@@ -70,7 +70,7 @@ var viewportWidth = function(){
 var numUpdatesToShow = (viewportWidth > 640) ? 5 : 1;
 var openWebSocket = function() {
     if ("WebSocket" in window) {
-        var ws = new WebSocket("ws://mikemcbrearty.com:8888/");
+        var ws = new WebSocket("ws://mikemcbrearty.com/staten-island-ferry");
         ws.onopen = function() {};
         ws.onmessage = function (e) {
             var msg = JSON.parse(e.data);
